@@ -1,0 +1,22 @@
+{
+  "name": "session",
+  "plural": "session",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "sessionID": {
+      "type": "string",
+      "required": true
+    },
+    "ACL": {
+      "type": "object"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
